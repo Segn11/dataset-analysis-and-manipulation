@@ -1,0 +1,43 @@
+# 🇹🇿 Tanzania Tourism Prediction
+
+This repository contains a data analysis and feature engineering project based on Tanzania's tourism dataset. The goal of this project is to clean, explore, and manipulate the data to extract valuable insights and prepare it for future predictive modeling tasks.
+
+---
+
+## 📂 Dataset
+
+- `Train.csv`: Contains information about tourists, such as demographics, travel behavior, spending patterns, and preferences.
+- Source: [Zindi Africa - Tanzania Tourism Prediction Challenge](https://zindi.africa/competitions)
+
+---
+
+## 🎯 Objectives
+
+- Load and inspect the dataset using Python and Pandas
+- Handle missing values and inconsistent data
+- Create meaningful new features (feature engineering)
+- Explore patterns in the data with filtering and group-by operations
+- Export subsets of the data for specific use cases
+
+---
+
+## 📊 Features Engineered
+
+- `total_nights`: Total nights spent (mainland + Zanzibar)
+- `total_people`: Sum of total male and female tourists
+- `cost_per_night`: Total cost divided by total nights
+- `cost_per_person`: Total cost divided by number of people (if available)
+- Exported high spenders (cost >= 20,000) to `cash_players.csv`
+
+---
+
+## 🛠️ Tools & Technologies
+
+- Python 3.x
+- Pandas
+- NumPy
+- Google Colab
+
+
+
+
